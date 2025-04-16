@@ -26,6 +26,34 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.scrolling-banner {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+
+  .scrolling-track {
+    display: flex;
+    width: calc(400px * 10);
+    animation: scroll-left 30s linear infinite;
+  }
+  .scrolling-track img {
+    width: 400px;
+    height: auto;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
 
 ol, ul {
 	list-style: none;
@@ -3128,5 +3156,4 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
-	}
+}

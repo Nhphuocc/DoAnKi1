@@ -5,6 +5,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="icon" href="favicon.svg" type="image/svg+xml">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="homepage is-preload">
@@ -12,11 +13,10 @@
 				<div id="header">
 						<div class="inner">
 							<header>
-								<h1><a href="/" id="logo">Clarins Cosmetics</a></h1>
-								<p>BEAUTY IS UNIT, NOT LUCK</p>
+								<img src="images/logo.svg" alt="logo" style="width: 400px; height: auto;">
 							</header>
 							<footer>
-								<a href="#banner" class="button circled scrolly">Start</a>
+								<a href="#" class="button circled scrolly">ShopNow</a>
 							</footer>
 						</div>
 						<nav id="nav">
@@ -40,22 +40,11 @@
 			                </ul>
 						</nav>
 				</div>
-
-			<!-- Banner -->
-				<section id="banner">
-					<header>
-						<h2>Hi. You're looking at <strong>Helios</strong>.</h2>
-						<p>
-							A (free) responsive site template by <a href="http://html5up.net">HTML5 UP</a>.
-							Built with HTML5/CSS3 and released under the <a href="http://html5up.net/license">CCA</a> license.
-						</p>
-					</header>
-				</section>
-
-			<!-- Carousel -->
 				<section class="carousel">
+                    <header style="text-align: center; font-size: 3em;">
+                        <h1>New Product</h1>
+                    </header>
 					<div class="reel">
-
 						<article>
 							<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
 							<header>
@@ -136,7 +125,20 @@
 							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
 						</article>
 
-					</div>
+					</div><div class="scrolling-banner">
+                        <div class="scrolling-track">
+                          <img src="images/banner1.jpg" alt="banner1">
+                          <img src="images/banner2.jpg" alt="banner2">
+                          <img src="images/banner5.jpg" alt="banner5">
+                          <img src="images/banner4.jpg" alt="banner4">
+                          <img src="images/banner3.jpg" alt="banner3">
+                          <img src="images/banner1.jpg" alt="banner1">
+                          <img src="images/banner2.jpg" alt="banner2">
+                          <img src="images/banner5.jpg" alt="banner5">
+                          <img src="images/banner4.jpg" alt="banner4">
+                          <img src="images/banner3.jpg" alt="banner3">
+                        </div>
+                    </div>
 				</section>
 
 			<!-- Main -->
@@ -209,7 +211,6 @@
 							</article>
 						</div>
 					</section>
-
 				</div>
 
 			<!-- Footer -->
